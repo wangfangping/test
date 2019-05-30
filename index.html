@@ -1,16 +1,101 @@
 <!DOCTYPE html>
-<html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-CN">
 <head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="utf-8">
-  
-  <title>development, iOS, web前端, web开发， web后端开发-coding</title>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
 
-  <!-- keywords -->
-  
-    <meta name="keywords" content="development, iOS, web前端, web开发， web后端开发">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.1.1',
+    sidebar: {"display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
   
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
   <meta name="keywords" content="development, iOS, web前端, web开发， web后端开发">
 <meta property="og:type" content="website">
 <meta property="og:title" content="coding">
@@ -19,246 +104,500 @@
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="coding">
+
+
+
+
+
   
-    <link rel="alternative" href="/atom.xml" title="coding" type="application/atom+xml">
   
+  <link rel="canonical" href="https://www.wangfangping.club/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>coding</title>
   
-    <link rel="icon" href="http://7xkj1z.com1.z0.glb.clouddn.com/head.jpg">
-  
-  <link rel="stylesheet" href="/css/style.css">
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
   
   
 
-  <script src="//cdn.bootcss.com/require.js/2.3.2/require.min.js"></script>
-  <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+  <div class="container 
+  page-home">
+    <div class="headband"></div>
 
-  
-</head></html>
-<body>
-  <div id="container">
-    <div id="particles-js"></div>
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-	<header id="header" class="inner">
-		<a href="/" class="profilepic">
-			
-			<img lazy-src="http://7xkj1z.com1.z0.glb.clouddn.com/head.jpg" class="js-avatar">
-			
-		</a>
-
-		<hgroup>
-		  <h1 class="header-author"><a href="/">92coding</a></h1>
-		</hgroup>
-
-		
-
-		
-			<div class="switch-btn">
-				<div class="icon">
-					<div class="icon-ctn">
-						<div class="icon-wrap icon-house" data-idx="0">
-							<div class="birdhouse"></div>
-							<div class="birdhouse_holes"></div>
-						</div>
-						<div class="icon-wrap icon-ribbon hide" data-idx="1">
-							<div class="ribbon"></div>
-						</div>
-						
-						<div class="icon-wrap icon-link hide" data-idx="2">
-							<div class="loopback_l"></div>
-							<div class="loopback_r"></div>
-						</div>
-						
-						
-					</div>
-					
-				</div>
-				<div class="tips-box hide">
-					<div class="tips-arrow"></div>
-					<ul class="tips-inner">
-						<li>菜单</li>
-						<li>标签</li>
-						
-						<li>友情链接</li>
-						
-						
-					</ul>
-				</div>
-			</div>
-		
-
-		<div class="switch-area">
-			<div class="switch-wrap">
-				<section class="switch-part switch-part1">
-					<nav class="header-menu">
-						<ul>
-						
-							<li><a href="/">主页</a></li>
-				        
-							<li><a href="/archives">所有文章</a></li>
-				        
-						</ul>
-					</nav>
-					<nav class="header-nav">
-						<div class="social">
-							
-						</div>
-					</nav>
-				</section>
-				
-				
-				<section class="switch-part switch-part2">
-					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/Node-js/" style="font-size: 20px;">Node.js</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/iOS/" style="font-size: 10px;">iOS</a> <a href="/tags/web/" style="font-size: 20px;">web</a> <a href="/tags/做事/" style="font-size: 10px;">做事</a> <a href="/tags/做人/" style="font-size: 10px;">做人</a>
-					</div>
-				</section>
-				
-				
-				
-				<section class="switch-part switch-part3">
-					<div id="js-friends">
-					
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="https://github.com/smackgg/hexo-theme-smackdown">smackdown</a>
-			        
-			        </div>
-				</section>
-				
-
-				
-			</div>
-		</div>
-	</header>				
-</div>
-    </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-  	<div class="overlay">
-  		<div class="slider-trigger"></div>
-  		<h1 class="header-author js-mobile-header hide">92coding</h1>
-  	</div>
-	<div class="intrude-less">
-		<header id="header" class="inner">
-			<div class="profilepic">
-				<img lazy-src="http://7xkj1z.com1.z0.glb.clouddn.com/head.jpg" class="js-avatar">
-			</div>
-			<hgroup>
-			  <h1 class="header-author">92coding</h1>
-			</hgroup>
-			
-			<nav class="header-menu">
-				<ul>
-				
-					<li><a href="/">主页</a></li>
-		        
-					<li><a href="/archives">所有文章</a></li>
-		        
-		        <div class="clearfix"></div>
-				</ul>
-			</nav>
-			<nav class="header-nav">
-				<div class="social">
-					
-				</div>
-			</nav>
-		</header>				
-	</div>
-</nav>
-      <div class="body-wrap">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2019/05/26/hello-world/" class="article-date">
-  	<time datetime="2019-05-26T09:15:26.894Z" itemprop="datePublished">2019-05-26</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
     
-      <input type="hidden" class="isFancy">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/05/26/hello-world/">
-        Hello World
-        
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">coding</span>
+        <span class="logo-line-after"><i></i></span>
       </a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-      
     
   </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
   
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-好人啊" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2019/02/05/好人啊/" class="article-date">
-  	<time datetime="2019-02-05T13:30:30.000Z" itemprop="datePublished">2019-02-05</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy">
-    
-    
-      <header class="article-header">
+    <ul id="menu" class="menu">
+      
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/02/05/好人啊/">
-        好人
         
-      </a>
-    </h1>
+        
+          
+          <li class="menu-item menu-item-home menu-item-active">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">6</span></a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">12</span></a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">9</span></a>
+
+  </li>
+
+      
+      
+    </ul>
   
 
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.wangfangping.club/2019/05/26/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="92coding">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar1.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="coding">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/05/26/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-05-26 17:15:26" itemprop="dateCreated datePublished" datetime="2019-05-26T17:15:26+08:00">2019-05-26</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==" title="https://hexo.io/">Hexo<i class="fa fa-external-link"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv" title="https://hexo.io/docs/">documentation<i class="fa fa-external-link"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=" title="https://hexo.io/docs/troubleshooting.html">troubleshooting<i class="fa fa-external-link"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==" title="https://github.com/hexojs/hexo/issues">GitHub<i class="fa fa-external-link"></i></span>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s" title="https://hexo.io/docs/writing.html">Writing<i class="fa fa-external-link"></i></span></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=" title="https://hexo.io/docs/server.html">Server<i class="fa fa-external-link"></i></span></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s" title="https://hexo.io/docs/generating.html">Generating<i class="fa fa-external-link"></i></span></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZGVwbG95bWVudC5odG1s" title="https://hexo.io/docs/deployment.html">Deployment<i class="fa fa-external-link"></i></span></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
       
     
-    <div class="article-entry" itemprop="articleBody">
+    
+
+    
+
+    <footer class="post-footer">
       
-        <h2 id="这个是美好的一天"><a href="#这个是美好的一天" class="headerlink" title="这个是美好的一天"></a>这个是美好的一天</h2><p>   好看的云，好看的天</p>
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.wangfangping.club/2019/02/05/好人啊/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="92coding">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar1.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="coding">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/02/05/好人啊/" class="post-title-link" itemprop="url">好人</a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-02-05 21:30:30" itemprop="dateCreated datePublished" datetime="2019-02-05T21:30:30+08:00">2019-02-05</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-05-28 16:49:17" itemprop="dateModified" datetime="2019-05-28T16:49:17+08:00">2019-05-28</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/好人好事/" itemprop="url" rel="index"><span itemprop="name">好人好事</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/好人好事/大家同乐/" itemprop="url" rel="index"><span itemprop="name">大家同乐</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="这个是美好的一天"><a href="#这个是美好的一天" class="headerlink" title="这个是美好的一天"></a>这个是美好的一天</h2><p>   好看的云，好看的天</p>
 <h3 id="没有烦恼"><a href="#没有烦恼" class="headerlink" title="没有烦恼"></a>没有烦恼</h3><p>   感觉好舒服</p>
 <h3 id="如果让我记得这里的世界"><a href="#如果让我记得这里的世界" class="headerlink" title="如果让我记得这里的世界"></a>如果让我记得这里的世界</h3><p>   我真的会感觉太高兴</p>
 <h3 id="加油，为了明天"><a href="#加油，为了明天" class="headerlink" title="加油，为了明天"></a>加油，为了明天</h3><p>   明天一定会更好的</p>
@@ -266,360 +605,1052 @@
 </code></pre><h3 id="无奈"><a href="#无奈" class="headerlink" title="无奈"></a>无奈</h3><pre><code>你总是会错过很多美好
 </code></pre><h3 id="外面的环卫工人又在打扫"><a href="#外面的环卫工人又在打扫" class="headerlink" title="外面的环卫工人又在打扫"></a>外面的环卫工人又在打扫</h3><pre><code>你却在家里成天干坐着。
 </code></pre>
+          
+        
       
     </div>
+
     
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/做事/">做事</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/做人/">做人</a></li></ul>
-	</div>
 
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/好人好事/">好人好事</a><a class="article-category-link" href="/categories/好人好事/大家同乐/">大家同乐</a>
-	</div>
+    
+    
+    
 
+    
 
-      
-      <div class="clearfix"></div>
-    </div>
+    
       
     
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
+    
+      
 
   
-    <article id="post-just-so-so" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2018/05/26/just-so-so/" class="article-date">
-  	<time datetime="2018-05-26T13:03:20.000Z" itemprop="datePublished">2018-05-26</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.wangfangping.club/2018/05/26/just-so-so/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="92coding">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar1.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="coding">
+    </span>
+
     
-      <input type="hidden" class="isFancy">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/05/26/just-so-so/">
-        just so so
         
-      </a>
-    </h1>
-  
+          <h2 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/05/26/just-so-so/" class="post-title-link" itemprop="url">just so so</a>
+              
+            
+          </h2>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-05-26 21:03:20" itemprop="dateCreated datePublished" datetime="2018-05-26T21:03:20+08:00">2018-05-26</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-05-30 22:05:01" itemprop="dateModified" datetime="2018-05-30T22:05:01+08:00">2018-05-30</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
-      
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>时间走的总是如此快速.<br>还来不及反应<br>沧海桑田<br>褪去了当年的稚嫩<br>来日方长<br>让我精致与一方<br>美好的总是留不住<br>伤心的却难忘<br>人生啊人生<br>终究只是笑谈.</p>
 
-      
-    </div>
     
-    <div class="article-info article-info-index">
-      
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
 
       
-      <div class="clearfix"></div>
+        
+          
+            <p>时间走的总是如此快速.<br>还来不及反应<br>沧海桑田<br>褪去了当年的稚嫩<br>来日方长<br>让我精致与一方<br>美好的总是留不住<br>伤心的却难忘<br>人生啊人生<br>终究只是笑谈.</p>
+
+          
+        
+      
     </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
       
     
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
+    
+      
 
   
-    <article id="post-nicetest" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2018/05/03/nicetest/" class="article-date">
-  	<time datetime="2018-05-03T13:03:34.000Z" itemprop="datePublished">2018-05-03</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.wangfangping.club/2018/05/03/nicetest/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="92coding">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar1.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="coding">
+    </span>
+
     
-      <input type="hidden" class="isFancy">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/05/03/nicetest/">
-        nice job
         
-      </a>
-    </h1>
-  
+          <h2 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/05/03/nicetest/" class="post-title-link" itemprop="url">nice job</a>
+              
+            
+          </h2>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-05-03 21:03:34" itemprop="dateCreated datePublished" datetime="2018-05-03T21:03:34+08:00">2018-05-03</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-05-27 16:26:04" itemprop="dateModified" datetime="2019-05-27T16:26:04+08:00">2019-05-27</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
-      
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <h2 id="iOS-Preview"><a href="#iOS-Preview" class="headerlink" title="iOS Preview"></a>iOS Preview</h2><h3 id="This-is-a-just-test"><a href="#This-is-a-just-test" class="headerlink" title="This is a just test."></a>This is a just test.</h3><p>  好看的东西吗</p>
+      
+
+      
+        
+          
+            <h2 id="iOS-Preview"><a href="#iOS-Preview" class="headerlink" title="iOS Preview"></a>iOS Preview</h2><h3 id="This-is-a-just-test"><a href="#This-is-a-just-test" class="headerlink" title="This is a just test."></a>This is a just test.</h3><p>  好看的东西吗</p>
 <h3 id="生活真的好玩吗"><a href="#生活真的好玩吗" class="headerlink" title="生活真的好玩吗"></a>生活真的好玩吗</h3><p>  这个是什么东西？</p>
-<h3 id="做好每一件事情"><a href="#做好每一件事情" class="headerlink" title="做好每一件事情"></a>做好每一件事情</h3><p>  是的，这个才是王道<br>  <a href="https://baidu.com" target="_blank" rel="noopener">baidu</a></p>
+<h3 id="做好每一件事情"><a href="#做好每一件事情" class="headerlink" title="做好每一件事情"></a>做好每一件事情</h3><p>  是的，这个才是王道<br>  <span class="exturl" data-url="aHR0cHM6Ly9iYWlkdS5jb20=" title="https://baidu.com">baidu<i class="fa fa-external-link"></i></span></p>
 
+          
+        
       
     </div>
+
     
-    <div class="article-info article-info-index">
+
+    
+    
+    
+
+    
+
+    
       
+    
+    
+
+    
+
+    <footer class="post-footer">
       
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/iOS/">iOS</a></li></ul>
-	</div>
 
       
 
       
-      <div class="clearfix"></div>
-    </div>
+
       
-    
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
+    
+      
 
   
-    <article id="post-:year:month:title" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2018/04/07/:year:month:title/" class="article-date">
-  	<time datetime="2018-04-07T06:33:30.000Z" itemprop="datePublished">2018-04-07</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.wangfangping.club/2018/04/07/:year:month:title/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="92coding">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar1.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="coding">
+    </span>
+
     
-      <input type="hidden" class="isFancy">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/07/:year:month:title/">
-        做测试 用的
         
-      </a>
-    </h1>
-  
+          <h2 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/04/07/:year:month:title/" class="post-title-link" itemprop="url">做测试 用的</a>
+              
+            
+          </h2>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-04-07 14:33:30" itemprop="dateCreated datePublished" datetime="2018-04-07T14:33:30+08:00">2018-04-07</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-07-03 17:22:40" itemprop="dateModified" datetime="2018-07-03T17:22:40+08:00">2018-07-03</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/真的/" itemprop="url" rel="index"><span itemprop="name">真的</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/真的/加油/" itemprop="url" rel="index"><span itemprop="name">加油</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/好吧/" itemprop="url" rel="index"><span itemprop="name">好吧</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
-      
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p>  测试做的好<br>  生活有前景<br>  家人平安快乐<br>  有梦想<br>  追求真理<br>  不忘初心<br>  明天也有奔头<br>  知道自己在干什么</p>
+      
+
+      
+        
+          
+            <p>  测试做的好<br>  生活有前景<br>  家人平安快乐<br>  有梦想<br>  追求真理<br>  不忘初心<br>  明天也有奔头<br>  知道自己在干什么</p>
   <blockquote><p>不一样的青春，不一样的未来</p>
-<footer><strong>Mr.Wang, nice life</strong><cite><a href="https://wangfangping.club" target="_blank" rel="noopener">myblog</a></cite></footer></blockquote>
+<footer><strong>Mr.Wang, nice life</strong><cite><span class="exturl" data-url="aHR0cHM6Ly93YW5nZmFuZ3BpbmcuY2x1Yg==" title="https://wangfangping.club">myblog<i class="fa fa-external-link"></i></span></cite></footer></blockquote>
 
+          
+        
       
     </div>
+
     
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/web/">web</a></li></ul>
-	</div>
 
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/好吧/">好吧</a><a class="article-category-link" href="/categories/真的/">真的</a><a class="article-category-link" href="/categories/真的/加油/">加油</a>
-	</div>
+    
+    
+    
 
+    
 
-      
-      <div class="clearfix"></div>
-    </div>
+    
       
     
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
+    
+      
 
   
-    <article id="post-:year:month:day:title" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2018/01/08/:year:month:day:title/" class="article-date">
-  	<time datetime="2018-01-08T06:33:30.000Z" itemprop="datePublished">2018-01-08</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.wangfangping.club/2018/01/08/:year:month:day:title/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="92coding">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar1.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="coding">
+    </span>
+
     
-      <input type="hidden" class="isFancy">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/01/08/:year:month:day:title/">
-        tag plugins
         
-      </a>
-    </h1>
-  
+          <h2 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/01/08/:year:month:day:title/" class="post-title-link" itemprop="url">tag plugins</a>
+              
+            
+          </h2>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-01-08 14:33:30" itemprop="dateCreated datePublished" datetime="2018-01-08T14:33:30+08:00">2018-01-08</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-05-03 17:22:40" itemprop="dateModified" datetime="2018-05-03T17:22:40+08:00">2018-05-03</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/tag/" itemprop="url" rel="index"><span itemprop="name">tag</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/tag/block/" itemprop="url" rel="index"><span itemprop="name">block</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
-      
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <h2 id="Backtick-Code-block"><a href="#Backtick-Code-block" class="headerlink" title="Backtick Code block"></a>Backtick Code block</h2><p>  This is identical to using a code block, but instead uses three backticks to delimit the block.<br>  <figure class="highlight plain"><figcaption><span>[title] [url] [link text]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure></p>
-<h3 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h3>  <figure class="highlight javascript"><figcaption><span>alert</span><a href="https://wangfangping.club" target="_blank" rel="noopener">alertTest</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="string">'nice job'</span>);</span><br></pre></td></tr></table></figure>
+      
+
+      
+        
+          
+            <h2 id="Backtick-Code-block"><a href="#Backtick-Code-block" class="headerlink" title="Backtick Code block"></a>Backtick Code block</h2><p>  This is identical to using a code block, but instead uses three backticks to delimit the block.<br>  <figure class="highlight plain"><figcaption><span>[title] [url] [link text]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure></p>
+<h3 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h3>  <figure class="highlight javascript"><figcaption><span>alert</span><span class="exturl" data-url="aHR0cHM6Ly93YW5nZmFuZ3BpbmcuY2x1Yg==" title="https://wangfangping.club">alertTest<i class="fa fa-external-link"></i></span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="string">'nice job'</span>);</span><br></pre></td></tr></table></figure>
 <h2 id="Block-Quote"><a href="#Block-Quote" class="headerlink" title="Block Quote"></a>Block Quote</h2>  <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% blockquote [author[, source]] [link] [source_link_title] %&#125;</span><br><span class="line">content</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
 <h3 id="example-1"><a href="#example-1" class="headerlink" title="example:"></a>example:</h3>  <blockquote><p>good day, good man</p>
-<footer><strong>Mr.Wang, nice day</strong><cite><a href="https://wangfangping.club" target="_blank" rel="noopener">myblog</a></cite></footer></blockquote>
+<footer><strong>Mr.Wang, nice day</strong><cite><span class="exturl" data-url="aHR0cHM6Ly93YW5nZmFuZ3BpbmcuY2x1Yg==" title="https://wangfangping.club">myblog<i class="fa fa-external-link"></i></span></cite></footer></blockquote>
 <blockquote><p>不一样的青春，不一样的未来</p>
-<footer><strong>Mr.Wang, nice life</strong><cite><a href="https://wangfangping.club" target="_blank" rel="noopener">myblog</a></cite></footer></blockquote>
+<footer><strong>Mr.Wang, nice life</strong><cite><span class="exturl" data-url="aHR0cHM6Ly93YW5nZmFuZ3BpbmcuY2x1Yg==" title="https://wangfangping.club">myblog<i class="fa fa-external-link"></i></span></cite></footer></blockquote>
 <h2 id="Code-block"><a href="#Code-block" class="headerlink" title="Code block"></a>Code block</h2>  <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock [title] [lang: language] [url] [link text] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
 <h3 id="examples"><a href="#examples" class="headerlink" title="examples:"></a>examples:</h3><h4 id="A-plain-code-blocks"><a href="#A-plain-code-blocks" class="headerlink" title="A plain code blocks"></a>A plain code blocks</h4><figure class="highlight javascript"><figcaption><span>alert</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="string">'hello World!'</span>);</span><br></pre></td></tr></table></figure>
 <h4 id="Specifying-the-language"><a href="#Specifying-the-language" class="headerlink" title="Specifying the language"></a>Specifying the language</h4><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y:<span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
 <h4 id="Adding-a-caption-to-the-code-blocks"><a href="#Adding-a-caption-to-the-code-blocks" class="headerlink" title="Adding a caption to the code blocks"></a>Adding a caption to the code blocks</h4><figure class="highlight java"><figcaption><span>Array.map</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">array.map(callback[, thisArg])</span><br></pre></td></tr></table></figure>
-<h4 id="Adding-a-caption-and-a-URL"><a href="#Adding-a-caption-and-a-URL" class="headerlink" title="Adding a caption and a URL"></a>Adding a caption and a URL</h4><figure class="highlight plain"><figcaption><span>_.compact</span><a href="https://underscorejs.org/#compact" target="_blank" rel="noopener">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">_.compact([0, 1, false, 2, &apos;&apos;, 3]);</span><br><span class="line">=&gt; [1, 2, 3]</span><br></pre></td></tr></table></figure>
-<figure class="highlight ruby"><figcaption><span>Discover if a number is prime</span><a href="http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/" target="_blank" rel="noopener">Source Article</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Fixnum</span></span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">prime?</span></span></span><br><span class="line">  (<span class="string">'1'</span> * <span class="keyword">self</span>) !~ <span class="regexp">/^1?$|^(11+?)\1+$/</span></span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<h4 id="Adding-a-caption-and-a-URL"><a href="#Adding-a-caption-and-a-URL" class="headerlink" title="Adding a caption and a URL"></a>Adding a caption and a URL</h4><figure class="highlight plain"><figcaption><span>_.compact</span><span class="exturl" data-url="aHR0cHM6Ly91bmRlcnNjb3JlanMub3JnLyNjb21wYWN0" title="https://underscorejs.org/#compact">Underscore.js<i class="fa fa-external-link"></i></span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">_.compact([0, 1, false, 2, &apos;&apos;, 3]);</span><br><span class="line">=&gt; [1, 2, 3]</span><br></pre></td></tr></table></figure>
+<figure class="highlight ruby"><figcaption><span>Discover if a number is prime</span><span class="exturl" data-url="aHR0cDovL3d3dy5ub3VsYWthei5uZXQvd2VibG9nLzIwMDcvMDMvMTgvYS1yZWd1bGFyLWV4cHJlc3Npb24tdG8tY2hlY2stZm9yLXByaW1lLW51bWJlcnMv" title="http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/">Source Article<i class="fa fa-external-link"></i></span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Fixnum</span></span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">prime?</span></span></span><br><span class="line">  (<span class="string">'1'</span> * <span class="keyword">self</span>) !~ <span class="regexp">/^1?$|^(11+?)\1+$/</span></span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
 <h2 id="Pull-Quote"><a href="#Pull-Quote" class="headerlink" title="Pull Quote"></a>Pull Quote</h2><p>   To add pull quotes to your posts:<br><blockquote class="pullquote right"><p>   Left-aligning pullquotes are good to alternate breaks in the text. They’re<br>{“ almost exactly like the default, “} right pullquotes, but a little different.</p>
 </blockquote><br><blockquote class="pullquote"><p>Surround your paragraph with the pull quote tags. Then when you come to<br>the text you want to pull, {“ surround it like this “} and that’s all there is to it.</p>
 </blockquote></p>
 <h2 id="jsFiddle"><a href="#jsFiddle" class="headerlink" title="jsFiddle"></a>jsFiddle</h2><p>   To embed a jsFiddle snippet:<br><iframe scrolling="no" width="[width]" height="[height]" src="//jsfiddle.net/shorttag/embedded/[tabs]/[skin]" frameborder="0" allowfullscreen></iframe></p>
 <h3 id="example-2"><a href="#example-2" class="headerlink" title="example:"></a>example:</h3><iframe scrolling="no" width="90" height="100" src="//jsfiddle.net/iOS/embedded/just/light" frameborder="0" allowfullscreen></iframe>
-<a href="https://wangfangping.club" target="_blank" rel="noopener">nice</a>
+<span class="exturl" data-url="aHR0cHM6Ly93YW5nZmFuZ3BpbmcuY2x1Yg==" title="https://wangfangping.club">nice<i class="fa fa-external-link"></i></span>
 
+          
+        
       
     </div>
+
     
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-	</div>
 
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/tag/">tag</a><a class="article-category-link" href="/categories/tag/block/">block</a>
-	</div>
+    
+    
+    
 
+    
 
-      
-      <div class="clearfix"></div>
-    </div>
+    
       
     
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
-
-
-
-
-
-
-
   
   
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
-    </nav>
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar1.gif" alt="92coding">
+            
+              <p class="site-author-name" itemprop="name">92coding</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3dhbmdmYW5ncGluZw==" title="GitHub &rarr; https://github.com/wangfangping"><i class="fa fa-fw fa-github"></i>GitHub</span>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <span class="exturl" data-url="bWFpbHRvOjE3MzM3NDYxOEBxcS5jb20=" title="E-Mail &rarr; mailto:173374618@qq.com"><i class="fa fa-fw fa-envelope"></i>E-Mail</span>
+                </span>
+              
+            </div>
+          
+
+          
+             <div class="cc-license motion-element" itemprop="license">
+              
+              
+                
+              
+              
+              
+              <span class="exturl cc-opacity" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC96aC1DTg=="><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></span>
+             </div>
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2013 – <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">92coding</span>
+
+  
+
   
 </div>
-      <footer id="footer">
-  <div class="outer">
-    <div id="footer-info">
-      <div class="footer-left">
-        &copy; 2019 92coding
-      </div>
-        <div class="footer-right">
-          <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/smackgg/hexo-theme-smackdown" target="_blank">Smackdown</a>
-        </div>
-    </div>
-  </div>
-</footer>
-    </div>
-    
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
 
+
+  <div class="powered-by">由 <span class="exturl theme-link" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <span class="exturl theme-link" data-url="aHR0cHM6Ly90aGVtZS1uZXh0Lm9yZw==">NexT.Pisces</span></div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
 
 <script>
-	var yiliaConfig = {
-		fancybox: true,
-		mathjax: true,
-		animate: true,
-		isHome: true,
-		isPost: false,
-		isArchive: false,
-		isTag: false,
-		isCategory: false,
-		open_in_new: false
-	}
-</script>
-<script src="/js/main.js"></script>
-
-
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-        processEscapes: true,
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    }
-});
-
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';                 
-    }       
-});
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
 </script>
 
-<script src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js"></script>
 
 
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.1.1"></script>
+
+  <script src="/js/motion.js?v=7.1.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/affix.js?v=7.1.1"></script>
+
+  <script src="/js/schemes/pisces.js?v=7.1.1"></script>
+
+
+
+  
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.1.1"></script>
+
+
+  
+
+  
+  <script src="/js/exturl.js?v=7.1.1"></script>
+
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+  
+
+  
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+
+
+  
+
+  
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
