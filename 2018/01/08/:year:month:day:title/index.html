@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-CN">
+<html class="theme-next gemini use-motion" lang="zh-CN">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -70,9 +70,9 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Gemini',
     version: '7.1.1',
-    sidebar: {"display":"post","offset":12,"onmobile":false,"dimmer":false},
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
     back2top: true,
     back2top_sidebar: false,
     fancybox: false,
@@ -170,8 +170,10 @@
 
   
   
+    
+  
 
-  <div class="container page-post-detail">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -218,8 +220,6 @@
     
 
     
-      
-    
 
     <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
 
@@ -237,10 +237,8 @@
     
 
     
-      
-    
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">6</span></a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
 
   </li>
         
@@ -256,10 +254,8 @@
     
 
     
-      
-    
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">12</span></a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
 
   </li>
         
@@ -275,10 +271,8 @@
     
 
     
-      
-    
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">9</span></a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
 
   </li>
 
@@ -347,11 +341,11 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">tag plugins
+          <h1 class="post-title" itemprop="name headline">tag plugins
 
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -447,24 +441,24 @@
 
       
         <h2 id="Backtick-Code-block"><a href="#Backtick-Code-block" class="headerlink" title="Backtick Code block"></a>Backtick Code block</h2><p>  This is identical to using a code block, but instead uses three backticks to delimit the block.<br>  <figure class="highlight plain"><figcaption><span>[title] [url] [link text]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure></p>
-<h3 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h3>  <figure class="highlight javascript"><figcaption><span>alert</span><span class="exturl" data-url="aHR0cHM6Ly93YW5nZmFuZ3BpbmcuY2x1Yg==" title="https://wangfangping.club">alertTest<i class="fa fa-external-link"></i></span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="string">'nice job'</span>);</span><br></pre></td></tr></table></figure>
+<h3 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h3>  <figure class="highlight javascript"><figcaption><span>alert</span><a href="https://wangfangping.club" target="_blank" rel="noopener">alertTest</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="string">'nice job'</span>);</span><br></pre></td></tr></table></figure>
 <h2 id="Block-Quote"><a href="#Block-Quote" class="headerlink" title="Block Quote"></a>Block Quote</h2>  <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% blockquote [author[, source]] [link] [source_link_title] %&#125;</span><br><span class="line">content</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
 <h3 id="example-1"><a href="#example-1" class="headerlink" title="example:"></a>example:</h3>  <blockquote><p>good day, good man</p>
-<footer><strong>Mr.Wang, nice day</strong><cite><span class="exturl" data-url="aHR0cHM6Ly93YW5nZmFuZ3BpbmcuY2x1Yg==" title="https://wangfangping.club">myblog<i class="fa fa-external-link"></i></span></cite></footer></blockquote>
+<footer><strong>Mr.Wang, nice day</strong><cite><a href="https://wangfangping.club" target="_blank" rel="noopener">myblog</a></cite></footer></blockquote>
 <blockquote><p>不一样的青春，不一样的未来</p>
-<footer><strong>Mr.Wang, nice life</strong><cite><span class="exturl" data-url="aHR0cHM6Ly93YW5nZmFuZ3BpbmcuY2x1Yg==" title="https://wangfangping.club">myblog<i class="fa fa-external-link"></i></span></cite></footer></blockquote>
+<footer><strong>Mr.Wang, nice life</strong><cite><a href="https://wangfangping.club" target="_blank" rel="noopener">myblog</a></cite></footer></blockquote>
 <h2 id="Code-block"><a href="#Code-block" class="headerlink" title="Code block"></a>Code block</h2>  <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock [title] [lang: language] [url] [link text] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
 <h3 id="examples"><a href="#examples" class="headerlink" title="examples:"></a>examples:</h3><h4 id="A-plain-code-blocks"><a href="#A-plain-code-blocks" class="headerlink" title="A plain code blocks"></a>A plain code blocks</h4><figure class="highlight javascript"><figcaption><span>alert</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="string">'hello World!'</span>);</span><br></pre></td></tr></table></figure>
 <h4 id="Specifying-the-language"><a href="#Specifying-the-language" class="headerlink" title="Specifying the language"></a>Specifying the language</h4><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y:<span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
 <h4 id="Adding-a-caption-to-the-code-blocks"><a href="#Adding-a-caption-to-the-code-blocks" class="headerlink" title="Adding a caption to the code blocks"></a>Adding a caption to the code blocks</h4><figure class="highlight java"><figcaption><span>Array.map</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">array.map(callback[, thisArg])</span><br></pre></td></tr></table></figure>
-<h4 id="Adding-a-caption-and-a-URL"><a href="#Adding-a-caption-and-a-URL" class="headerlink" title="Adding a caption and a URL"></a>Adding a caption and a URL</h4><figure class="highlight plain"><figcaption><span>_.compact</span><span class="exturl" data-url="aHR0cHM6Ly91bmRlcnNjb3JlanMub3JnLyNjb21wYWN0" title="https://underscorejs.org/#compact">Underscore.js<i class="fa fa-external-link"></i></span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">_.compact([0, 1, false, 2, &apos;&apos;, 3]);</span><br><span class="line">=&gt; [1, 2, 3]</span><br></pre></td></tr></table></figure>
-<figure class="highlight ruby"><figcaption><span>Discover if a number is prime</span><span class="exturl" data-url="aHR0cDovL3d3dy5ub3VsYWthei5uZXQvd2VibG9nLzIwMDcvMDMvMTgvYS1yZWd1bGFyLWV4cHJlc3Npb24tdG8tY2hlY2stZm9yLXByaW1lLW51bWJlcnMv" title="http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/">Source Article<i class="fa fa-external-link"></i></span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Fixnum</span></span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">prime?</span></span></span><br><span class="line">  (<span class="string">'1'</span> * <span class="keyword">self</span>) !~ <span class="regexp">/^1?$|^(11+?)\1+$/</span></span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<h4 id="Adding-a-caption-and-a-URL"><a href="#Adding-a-caption-and-a-URL" class="headerlink" title="Adding a caption and a URL"></a>Adding a caption and a URL</h4><figure class="highlight plain"><figcaption><span>_.compact</span><a href="https://underscorejs.org/#compact" target="_blank" rel="noopener">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">_.compact([0, 1, false, 2, &apos;&apos;, 3]);</span><br><span class="line">=&gt; [1, 2, 3]</span><br></pre></td></tr></table></figure>
+<figure class="highlight ruby"><figcaption><span>Discover if a number is prime</span><a href="http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/" target="_blank" rel="noopener">Source Article</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Fixnum</span></span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">prime?</span></span></span><br><span class="line">  (<span class="string">'1'</span> * <span class="keyword">self</span>) !~ <span class="regexp">/^1?$|^(11+?)\1+$/</span></span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
 <h2 id="Pull-Quote"><a href="#Pull-Quote" class="headerlink" title="Pull Quote"></a>Pull Quote</h2><p>   To add pull quotes to your posts:<br><blockquote class="pullquote right"><p>   Left-aligning pullquotes are good to alternate breaks in the text. They’re<br>{“ almost exactly like the default, “} right pullquotes, but a little different.</p>
 </blockquote><br><blockquote class="pullquote"><p>Surround your paragraph with the pull quote tags. Then when you come to<br>the text you want to pull, {“ surround it like this “} and that’s all there is to it.</p>
 </blockquote></p>
 <h2 id="jsFiddle"><a href="#jsFiddle" class="headerlink" title="jsFiddle"></a>jsFiddle</h2><p>   To embed a jsFiddle snippet:<br><iframe scrolling="no" width="[width]" height="[height]" src="//jsfiddle.net/shorttag/embedded/[tabs]/[skin]" frameborder="0" allowfullscreen></iframe></p>
 <h3 id="example-2"><a href="#example-2" class="headerlink" title="example:"></a>example:</h3><iframe scrolling="no" width="90" height="100" src="//jsfiddle.net/iOS/embedded/just/light" frameborder="0" allowfullscreen></iframe>
-<span class="exturl" data-url="aHR0cHM6Ly93YW5nZmFuZ3BpbmcuY2x1Yg==" title="https://wangfangping.club">nice<i class="fa fa-external-link"></i></span>
+<a href="https://wangfangping.club" target="_blank" rel="noopener">nice</a>
 
       
     </div>
@@ -482,30 +476,6 @@
     
     
 
-    
-      <div>
-        
-
-
-
-
-  
-
-
-
-<ul class="post-copyright">
-  <li class="post-copyright-author">
-    <strong>本文作者： </strong>92coding</li>
-  <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    
-    <a href="https://www.wangfangping.club/2018/01/08/:year:month:day:title/" title="tag plugins">https://www.wangfangping.club/2018/01/08/:year:month:day:title/</a>
-  </li>
-  <li class="post-copyright-license">
-    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC96aC1DTg=="><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</span> 许可协议。转载请注明出处！</li>
-</ul>
-
-      </div>
     
 
     <footer class="post-footer">
@@ -598,6 +568,89 @@
           </div>
 
           
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">9</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">12</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
 
           
 
@@ -614,7 +667,7 @@
                   
                     
                   
-                  <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3dhbmdmYW5ncGluZw==" title="GitHub &rarr; https://github.com/wangfangping"><i class="fa fa-fw fa-github"></i>GitHub</span>
+                  <a href="https://github.com/wangfangping" title="GitHub &rarr; https://github.com/wangfangping" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
                 </span>
               
                 <span class="links-of-author-item">
@@ -625,22 +678,12 @@
                   
                     
                   
-                  <span class="exturl" data-url="bWFpbHRvOjE3MzM3NDYxOEBxcS5jb20=" title="E-Mail &rarr; mailto:173374618@qq.com"><i class="fa fa-fw fa-envelope"></i>E-Mail</span>
+                  <a href="mailto:173374618@qq.com" title="E-Mail &rarr; mailto:173374618@qq.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                 </span>
               
             </div>
           
 
-          
-             <div class="cc-license motion-element" itemprop="license">
-              
-              
-                
-              
-              
-              
-              <span class="exturl cc-opacity" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC96aC1DTg=="><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></span>
-             </div>
           
 
           
@@ -686,7 +729,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2013 – <span itemprop="copyrightYear">2019</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
@@ -698,7 +741,7 @@
 </div>
 
 
-  <div class="powered-by">由 <span class="exturl theme-link" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> 强力驱动</div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.8.0</div>
 
 
 
@@ -706,7 +749,7 @@
 
 
 
-  <div class="theme-info">主题 – <span class="exturl theme-link" data-url="aHR0cHM6Ly90aGVtZS1uZXh0Lm9yZw==">NexT.Pisces</span></div>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.1.1</div>
 
 
 
@@ -800,6 +843,7 @@
 
 
 
+
   
   <script src="/js/scrollspy.js?v=7.1.1"></script>
 <script src="/js/post-details.js?v=7.1.1"></script>
@@ -815,8 +859,6 @@
   
 
   
-  <script src="/js/exturl.js?v=7.1.1"></script>
-
 
   
 
@@ -834,29 +876,6 @@
   
 
   
-  
-
-  
-  
-
-  
-
-
-  
-
-  
-
-  
-  <script>
-    (function(){
-      var bp = document.createElement('script');
-      var curProtocol = window.location.protocol.split(':')[0];
-      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(bp, s);
-    })();
-  </script>
-
 
   
 
@@ -869,6 +888,44 @@
   
 
   
+
+  
+
+  
+
+  
+<script>
+  $('.highlight').not('.gist .highlight').each(function(i, e) {
+    var $wrap = $('<div>').addClass('highlight-wrap');
+    $(e).after($wrap);
+    $wrap.append($('<button>').addClass('copy-btn').append('复制').on('click', function(e) {
+      var code = $(this).parent().find('.code').find('.line').map(function(i, e) {
+        return $(e).text();
+      }).toArray().join('\n');
+      var ta = document.createElement('textarea');
+      var yPosition = window.pageYOffset || document.documentElement.scrollTop;
+      ta.style.top = yPosition + 'px'; // Prevent page scroll
+      ta.style.position = 'absolute';
+      ta.style.opacity = '0';
+      ta.readOnly = true;
+      ta.value = code;
+      document.body.appendChild(ta);
+      ta.select();
+      ta.setSelectionRange(0, code.length);
+      ta.readOnly = false;
+      var result = document.execCommand('copy');
+      
+      ta.blur(); // For iOS
+      $(this).blur();
+    })).on('mouseleave', function(e) {
+      var $b = $(this).find('.copy-btn');
+      setTimeout(function() {
+        $b.text('复制');
+      }, 300);
+    }).append(e);
+  })
+</script>
+
 
   
 
