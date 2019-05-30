@@ -1784,7 +1784,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ac1745;
+  background: #57ffff;
 }
 .feed-link,
 .chat {
@@ -2122,10 +2122,8 @@ pre .javascript .function {
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
-  background-color: #eee;
-  background-image: linear-gradient(#fcfcfc, #eee);
-  border: 1px solid #d5d5d5;
-  border-radius: 3px;
+  background-color: #fff;
+  border: none;
   user-select: none;
   outline: 0;
 }
@@ -2134,8 +2132,8 @@ pre .javascript .function {
   opacity: 0;
   padding: 2px 6px;
   position: absolute;
-  right: 4px;
-  top: 8px;
+  right: 0px;
+  height: 42px;
 }
 .highlight-wrap:hover .copy-btn,
 .highlight-wrap .copy-btn:focus {
