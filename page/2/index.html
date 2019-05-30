@@ -1,16 +1,101 @@
 <!DOCTYPE html>
-<html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-CN">
 <head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="utf-8">
-  
-  <title>development, iOS, web前端, web开发， web后端开发-coding</title>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
 
-  <!-- keywords -->
-  
-    <meta name="keywords" content="development, iOS, web前端, web开发， web后端开发">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.1.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
   
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
   <meta name="keywords" content="development, iOS, web前端, web开发， web后端开发">
 <meta property="og:type" content="website">
 <meta property="og:title" content="coding">
@@ -19,183 +104,340 @@
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="coding">
-  
-    <link rel="alternative" href="/atom.xml" title="coding" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="http://7xkj1z.com1.z0.glb.clouddn.com/head.jpg">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
-  
 
-  <script src="//cdn.bootcss.com/require.js/2.3.2/require.min.js"></script>
-  <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+
+
+
 
   
-</head></html>
-<body>
-  <div id="container">
-    <div id="particles-js"></div>
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-	<header id="header" class="inner">
-		<a href="/" class="profilepic">
-			
-			<img lazy-src="http://7xkj1z.com1.z0.glb.clouddn.com/head.jpg" class="js-avatar">
-			
-		</a>
-
-		<hgroup>
-		  <h1 class="header-author"><a href="/">92coding</a></h1>
-		</hgroup>
-
-		
-
-		
-			<div class="switch-btn">
-				<div class="icon">
-					<div class="icon-ctn">
-						<div class="icon-wrap icon-house" data-idx="0">
-							<div class="birdhouse"></div>
-							<div class="birdhouse_holes"></div>
-						</div>
-						<div class="icon-wrap icon-ribbon hide" data-idx="1">
-							<div class="ribbon"></div>
-						</div>
-						
-						<div class="icon-wrap icon-link hide" data-idx="2">
-							<div class="loopback_l"></div>
-							<div class="loopback_r"></div>
-						</div>
-						
-						
-					</div>
-					
-				</div>
-				<div class="tips-box hide">
-					<div class="tips-arrow"></div>
-					<ul class="tips-inner">
-						<li>菜单</li>
-						<li>标签</li>
-						
-						<li>友情链接</li>
-						
-						
-					</ul>
-				</div>
-			</div>
-		
-
-		<div class="switch-area">
-			<div class="switch-wrap">
-				<section class="switch-part switch-part1">
-					<nav class="header-menu">
-						<ul>
-						
-							<li><a href="/">主页</a></li>
-				        
-							<li><a href="/archives">所有文章</a></li>
-				        
-						</ul>
-					</nav>
-					<nav class="header-nav">
-						<div class="social">
-							
-						</div>
-					</nav>
-				</section>
-				
-				
-				<section class="switch-part switch-part2">
-					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/Node-js/" style="font-size: 20px;">Node.js</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/iOS/" style="font-size: 10px;">iOS</a> <a href="/tags/web/" style="font-size: 20px;">web</a> <a href="/tags/做事/" style="font-size: 10px;">做事</a> <a href="/tags/做人/" style="font-size: 10px;">做人</a>
-					</div>
-				</section>
-				
-				
-				
-				<section class="switch-part switch-part3">
-					<div id="js-friends">
-					
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="https://github.com/smackgg/hexo-theme-smackdown">smackdown</a>
-			        
-			        </div>
-				</section>
-				
-
-				
-			</div>
-		</div>
-	</header>				
-</div>
-    </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-  	<div class="overlay">
-  		<div class="slider-trigger"></div>
-  		<h1 class="header-author js-mobile-header hide">92coding</h1>
-  	</div>
-	<div class="intrude-less">
-		<header id="header" class="inner">
-			<div class="profilepic">
-				<img lazy-src="http://7xkj1z.com1.z0.glb.clouddn.com/head.jpg" class="js-avatar">
-			</div>
-			<hgroup>
-			  <h1 class="header-author">92coding</h1>
-			</hgroup>
-			
-			<nav class="header-menu">
-				<ul>
-				
-					<li><a href="/">主页</a></li>
-		        
-					<li><a href="/archives">所有文章</a></li>
-		        
-		        <div class="clearfix"></div>
-				</ul>
-			</nav>
-			<nav class="header-nav">
-				<div class="social">
-					
-				</div>
-			</nav>
-		</header>				
-	</div>
-</nav>
-      <div class="body-wrap">
   
-    <article id="post-:year:month:title" class="article article-type-post" itemscope itemprop="blogPost">
+  <link rel="canonical" href="https://www.wangfangping.club/page/2/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>coding</title>
   
-    <div class="article-meta">
-      <a href="/2018/01/07/:year:month:title/" class="article-date">
-  	<time datetime="2018-01-07T06:33:30.000Z" itemprop="datePublished">2018-01-07</time>
-</a>
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
   
-  <div class="article-inner">
+  
     
-      <input type="hidden" class="isFancy">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/01/07/:year:month:title/">
-        just for you
-        
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">coding</span>
+        <span class="logo-line-after"><i></i></span>
       </a>
-    </h1>
-  
+    </div>
+    
+    
+  </div>
 
-      </header>
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
       
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
       
-        <h2 id="happy-code"><a href="#happy-code" class="headerlink" title="happy code"></a>happy code</h2><pre><code>life is very good
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.wangfangping.club/2018/01/07/:year:month:title/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="92coding">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar1.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="coding">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/01/07/:year:month:title/" class="post-title-link" itemprop="url">just for you</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-01-07 14:33:30" itemprop="dateCreated datePublished" datetime="2018-01-07T14:33:30+08:00">2018-01-07</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-05-03 17:22:40" itemprop="dateModified" datetime="2018-05-03T17:22:40+08:00">2018-05-03</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="happy-code"><a href="#happy-code" class="headerlink" title="happy code"></a>happy code</h2><pre><code>life is very good
 </code></pre><h3 id="ok-this-is-Mr-wang"><a href="#ok-this-is-Mr-wang" class="headerlink" title="ok this is Mr wang"></a>ok this is Mr wang</h3><pre><code>forget all problems
 </code></pre><h3 id="just-learn-and-do"><a href="#just-learn-and-do" class="headerlink" title="just learn and do"></a>just learn and do</h3><pre><code>do a better thing
 </code></pre><h2 id="are-you-ok"><a href="#are-you-ok" class="headerlink" title="are you ok:"></a>are you ok:</h2><pre><code>nice life
@@ -203,228 +445,788 @@
 </code></pre><h3 id="turn-off"><a href="#turn-off" class="headerlink" title="turn off"></a>turn off</h3><p>   turn right</p>
 <h3 id="turn-on"><a href="#turn-on" class="headerlink" title="turn on"></a>turn on</h3><p>   turn Left</p>
 
+          
+        
       
     </div>
+
     
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/web/">web</a></li></ul>
-	</div>
 
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/web/">web</a>
-	</div>
+    
+    
+    
 
+    
 
-      
-      <div class="clearfix"></div>
-    </div>
+    
       
     
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
+    
+      
 
   
-    <article id="post-setTimeout函数与clearTimeout函数" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/05/03/setTimeout函数与clearTimeout函数/" class="article-date">
-  	<time datetime="2016-05-03T10:41:50.000Z" itemprop="datePublished">2016-05-03</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.wangfangping.club/2016/05/03/setTimeout函数与clearTimeout函数/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="92coding">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar1.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="coding">
+    </span>
+
     
-      <input type="hidden" class="isFancy">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/05/03/setTimeout函数与clearTimeout函数/">
-        几个基本函数
         
-      </a>
-    </h1>
-  
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/05/03/setTimeout函数与clearTimeout函数/" class="post-title-link" itemprop="url">几个基本函数</a>
+              
+            
+          </h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-05-03 18:41:50" itemprop="dateCreated datePublished" datetime="2016-05-03T18:41:50+08:00">2016-05-03</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/Node-js/" itemprop="url" rel="index"><span itemprop="name">Node.js</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/Node-js/Node-js基础知识/" itemprop="url" rel="index"><span itemprop="name">Node.js基础知识</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/Node-js/Node-js基础知识/Node-js的setTimeout函数与clearTimeout函数/" itemprop="url" rel="index"><span itemprop="name">Node.js的setTimeout函数与clearTimeout函数</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
-      
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p>主要是超时执行函数： setTimeout和clearTimeout<br>设置超时执行回调和时间及回调函数的参数。<br>格式：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> timer = setTimeout(cb, ms, [arg], [...]);</span><br><span class="line">clearTimeout(timer);</span><br></pre></td></tr></table></figure></p>
+      
+
+      
+        
+          
+            <p>主要是超时执行函数： setTimeout和clearTimeout<br>设置超时执行回调和时间及回调函数的参数。<br>格式：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> timer = setTimeout(cb, ms, [arg], [...]);</span><br><span class="line">clearTimeout(timer);</span><br></pre></td></tr></table></figure></p>
 <p>cb – callback<br>ms – msec/millisecond</p>
 <p>主要超时循环执行函数： setInterval和clearInterval<br>设置超时循环执行回调函数和时间<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> timer = setInterval(testFunction, <span class="number">5000</span>, <span class="string">"testFunction function executed"</span>);</span><br><span class="line">clearInterval(timer);</span><br></pre></td></tr></table></figure></p>
 
+          
+        
       
     </div>
+
     
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Node-js/">Node.js</a></li></ul>
-	</div>
 
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/web/">web</a><a class="article-category-link" href="/categories/web/Node-js/">Node.js</a><a class="article-category-link" href="/categories/web/Node-js/Node-js基础知识/">Node.js基础知识</a><a class="article-category-link" href="/categories/web/Node-js/Node-js基础知识/Node-js的setTimeout函数与clearTimeout函数/">Node.js的setTimeout函数与clearTimeout函数</a>
-	</div>
+    
+    
+    
 
+    
 
-      
-      <div class="clearfix"></div>
-    </div>
+    
       
     
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
+    
+      
 
   
-    <article id="post-Node.js的全局作用域" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/05/03/Node.js的全局作用域/" class="article-date">
-  	<time datetime="2016-05-03T06:41:50.000Z" itemprop="datePublished">2016-05-03</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.wangfangping.club/2016/05/03/Node.js的全局作用域/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="92coding">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar1.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="coding">
+    </span>
+
     
-      <input type="hidden" class="isFancy">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/05/03/Node.js的全局作用域/">
-        Node.js中的全局作用域
         
-      </a>
-    </h1>
-  
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/05/03/Node.js的全局作用域/" class="post-title-link" itemprop="url">Node.js中的全局作用域</a>
+              
+            
+          </h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-05-03 14:41:50" itemprop="dateCreated datePublished" datetime="2016-05-03T14:41:50+08:00">2016-05-03</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/Node-js/" itemprop="url" rel="index"><span itemprop="name">Node.js</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/Node-js/Node-js基础知识/" itemprop="url" rel="index"><span itemprop="name">Node.js基础知识</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/Node-js/Node-js基础知识/Node-js的全局作用域及全局函数/" itemprop="url" rel="index"><span itemprop="name">Node.js的全局作用域及全局函数</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
-      
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p><script><br>document.getElementByTags(“body”).css(“color”:”green”);<br></script></p>
+      
+
+      
+        
+          
+            <p><script><br>document.getElementByTags(“body”).css(“color”:”green”);<br></script></p>
 <h2 id="全局作用域"><a href="#全局作用域" class="headerlink" title="[全局作用域]"></a>[全局作用域]</h2><p>Node.js定义了一个<strong style="color:red">global</strong>对象，代表Node.js中的全局命名空间，任何全局变量，函数或者对象都是该对象的一个属性值。<br>观察global对象的内容：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">console.log(global);</span><br></pre></td></tr></table></figure><br><blockquote><p>Object [global] {<br>  DTRACE_NET_SERVER_CONNECTION: [Function],<br>  DTRACE_NET_STREAM_END: [Function],<br>  DTRACE_HTTP_SERVER_REQUEST: [Function],<br>  DTRACE_HTTP_SERVER_RESPONSE: [Function],<br>  DTRACE_HTTP_CLIENT_REQUEST: [Function],<br>  DTRACE_HTTP_CLIENT_RESPONSE: [Function],<br>  global: [Circular],<br>  process:<br>   process {<br>     title: ‘node’,<br>     version: ‘v11.13.0’,<br>     versions:<br>      { node: ‘11.13.0’,<br>        v8: ‘7.0.276.38-node.18’,<br>        uv: ‘1.27.0’,<br>        zlib: ‘1.2.11’,<br>        brotli: ‘1.0.7’,<br>        ares: ‘1.15.0’,<br>        modules: ‘67’,<br>        nghttp2: ‘1.34.0’,<br>        napi: ‘4’,<br>        llhttp: ‘1.1.1’,<br>        http_parser: ‘2.8.0’,<br>        openssl: ‘1.1.1b’,<br>        cldr: ‘34.0’,<br>        icu: ‘63.1’,<br>        tz: ‘2018e’,<br>        unicode: ‘11.0’ },<br>     arch: ‘x64’,<br>     platform: ‘darwin’,<br>     release:<br>      { name: ‘node’,<br>        sourceUrl:<br>         ‘<a href="https://nodejs.org/download/release/v11.13.0/node-v11.13.0.tar.gz&#39;" target="_blank" rel="noopener">https://nodejs.org/download/release/v11.13.0/node-v11.13.0.tar.gz&#39;</a>,<br>        headersUrl:<br>         ‘<a href="https://nodejs.org/download/release/v11.13.0/node-v11.13.0-headers.tar.gz&#39;" target="_blank" rel="noopener">https://nodejs.org/download/release/v11.13.0/node-v11.13.0-headers.tar.gz&#39;</a> },<br>     argv: [ ‘/usr/local/bin/node’ ],<br>     execArgv: [],<br>     pid: 6431,<br>     ppid: 6419,<br>     execPath: ‘/usr/local/bin/node’,<br>     debugPort: 9229,<br>     _rawDebug: [Function: _rawDebug],<br>     moduleLoadList:<br>      [ ‘Internal Binding module_wrap’,<br>        ‘Internal Binding native_module’,<br>        ‘Internal Binding config’,<br>        ‘Internal Binding buffer’,<br>        ‘NativeModule internal/errors’,<br>        ‘Internal Binding constants’,<br>        ‘Internal Binding util’,<br>        ‘Internal Binding types’,<br>        ‘NativeModule internal/util/types’,<br>        ‘NativeModule internal/util’,<br>        ‘NativeModule events’,<br>        ‘NativeModule internal/util/inspect’,<br>        ‘NativeModule internal/validators’,<br>        ‘NativeModule internal/buffer’,<br>        ‘Internal Binding icu’,<br>        ‘NativeModule buffer’,<br>        ‘NativeModule internal/process/per_thread’,<br>        ‘NativeModule internal/process/main_thread_only’,<br>        ‘Internal Binding process_methods’,<br>        ‘Internal Binding credentials’,<br>        ‘NativeModule internal/process/stdio’,<br>        ‘Internal Binding options’,<br>        ‘NativeModule internal/options’,<br>        ‘Internal Binding async_wrap’,<br>        ‘NativeModule internal/async_hooks’,<br>        ‘NativeModule internal/inspector_async_hook’,<br>        ‘Internal Binding inspector’,<br>        ‘Internal Binding task_queue’,<br>        ‘NativeModule internal/process/promises’,<br>        ‘NativeModule internal/fixed_queue’,<br>        ‘NativeModule internal/process/task_queues’,<br>        ‘Internal Binding trace_events’,<br>        ‘NativeModule internal/console/constructor’,<br>        ‘NativeModule internal/console/global’,<br>        ‘NativeModule internal/util/inspector’,<br>        ‘NativeModule internal/querystring’,<br>        ‘NativeModule internal/constants’,<br>        ‘NativeModule path’,<br>        ‘Internal Binding url’,<br>        ‘NativeModule internal/url’,<br>        ‘NativeModule internal/encoding’,<br>        ‘Internal Binding timers’,<br>        ‘NativeModule internal/linkedlist’,<br>        ‘NativeModule internal/priority_queue’,<br>        ‘NativeModule internal/timers’,<br>        ‘NativeModule timers’,<br>        ‘NativeModule internal/process/execution’,<br>        ‘NativeModule internal/process/warning’,<br>        ‘NativeModule internal/bootstrap/pre_execution’,<br>        ‘NativeModule internal/util/debuglog’,<br>        ‘Internal Binding contextify’,<br>        ‘NativeModule util’,<br>        ‘NativeModule vm’,<br>        ‘NativeModule internal/assert’,<br>        ‘Internal Binding fs’,<br>        ‘NativeModule internal/fs/utils’,<br>        ‘NativeModule fs’,<br>        ‘NativeModule internal/idna’,<br>        ‘NativeModule url’,<br>        ‘NativeModule internal/modules/cjs/helpers’,<br>        ‘NativeModule internal/modules/cjs/loader’,<br>        ‘NativeModule internal/deps/acorn/acorn/dist/acorn’,<br>        ‘NativeModule internal/streams/pipeline’,<br>        ‘NativeModule internal/streams/end-of-stream’,<br>        ‘NativeModule internal/streams/legacy’,<br>        ‘NativeModule internal/streams/buffer_list’,<br>        ‘NativeModule internal/streams/destroy’,<br>        ‘NativeModule internal/streams/state’,<br>        ‘NativeModule _stream_readable’,<br>        ‘NativeModule _stream_writable’,<br>        ‘NativeModule _stream_duplex’,<br>        ‘NativeModule _stream_transform’,<br>        ‘NativeModule _stream_passthrough’,<br>        ‘NativeModule stream’,<br>        ‘NativeModule internal/readline’,<br>        ‘NativeModule readline’,<br>        ‘NativeModule console’,<br>        ‘NativeModule async_hooks’,<br>        ‘Internal Binding domain’,<br>        ‘NativeModule domain’,<br>        ‘NativeModule internal/repl/utils’,<br>        ‘Internal Binding os’,<br>        ‘NativeModule os’,<br>        ‘NativeModule internal/repl/history’,<br>        ‘NativeModule repl’,<br>        ‘NativeModule internal/repl’,<br>        ‘Internal Binding tty_wrap’,<br>        ‘NativeModule internal/net’,<br>        ‘Internal Binding uv’,<br>        ‘Internal Binding stream_wrap’,<br>        ‘Internal Binding tcp_wrap’,<br>        ‘Internal Binding pipe_wrap’,<br>        ‘NativeModule internal/stream_base_commons’,<br>        ‘NativeModule net’,<br>        ‘NativeModule internal/tty’,<br>        ‘NativeModule tty’,<br>        ‘Internal Binding signal_wrap’,<br>        ‘Internal Binding string_decoder’,<br>        ‘NativeModule string_decoder’,<br>        ‘NativeModule internal/fs/read_file_context’ ],<br>     binding: [Function: binding],<br>     _linkedBinding: [Function: _linkedBinding],<br>     _events:<br>      [Object: null prototype] {<br>        warning: [Function: onWarning],<br>        newListener: [Array],<br>        removeListener: [Array],<br>        SIGWINCH: [Function] },<br>     _eventsCount: 4,<br>     _maxListeners: undefined,<br>     domain: [Getter/Setter],<br>     _exiting: false,<br>     config: { target_defaults: [Object], variables: [Object] },<br>     abort: [Function: abort],<br>     umask: [Function: umask],<br>     chdir: [Function: chdir],<br>     _debugProcess: [Function: _debugProcess],<br>     _debugEnd: [Function: _debugEnd],<br>     _startProfilerIdleNotifier: [Function: _startProfilerIdleNotifier],<br>     _stopProfilerIdleNotifier: [Function: _stopProfilerIdleNotifier],<br>     cwd: [Function: cwd],<br>     dlopen: [Function: dlopen],<br>     uptime: [Function: uptime],<br>     _getActiveRequests: [Function: _getActiveRequests],<br>     _getActiveHandles: [Function: _getActiveHandles],<br>     reallyExit: [Function: reallyExit],<br>     _kill: [Function: _kill],<br>     hrtime: { [Function: hrtime] bigint: [Function: hrtimeBigInt] },<br>     cpuUsage: [Function: cpuUsage],<br>     memoryUsage: [Function: memoryUsage],<br>     kill: [Function: kill],<br>     exit: [Function: exit],<br>     getuid: [Function: getuid],<br>     geteuid: [Function: geteuid],<br>     getgid: [Function: getgid],<br>     getegid: [Function: getegid],<br>     getgroups: [Function: getgroups],<br>     initgroups: [Function: initgroups],<br>     setgroups: [Function: setgroups],<br>     setegid: [Function],<br>     seteuid: [Function],<br>     setgid: [Function],<br>     setuid: [Function],<br>     stdout: [Getter],<br>     stderr: [Getter],<br>     stdin: [Getter],<br>     openStdin: [Function],<br>     argv0: ‘node’,<br>     allowedNodeEnvironmentFlags: [Getter/Setter],<br>     assert: [Function: deprecated],<br>     features:<br>      { inspector: true,<br>        debug: false,<br>        uv: true,<br>        ipv6: true,<br>        tls_alpn: true,<br>        tls_sni: true,<br>        tls_ocsp: true,<br>        tls: true },<br>     _fatalException: [Function],<br>     setUncaughtExceptionCaptureCallback: [Function],<br>     hasUncaughtExceptionCaptureCallback: [Function: hasUncaughtExceptionCaptureCallback],<br>     emitWarning: [Function: emitWarning],<br>     nextTick: [Function: nextTick],<br>     _tickCallback: [Function: runNextTicks],<br>     env:<br>      { TERM_PROGRAM: ‘Apple_Terminal’,<br>        SHELL: ‘/bin/bash’,<br>        TERM: ‘xterm-256color’,<br>        TMPDIR: ‘/var/folders/gv/_4rt3zbj0ss6z3yw3w1rm5v40000gn/T/‘,<br>        Apple_PubSub_Socket_Render: ‘/private/tmp/com.apple.launchd.XQFXSWxgZN/Render’,<br>        TERM_PROGRAM_VERSION: ‘421.2’,<br>        TERM_SESSION_ID: ‘88DECE9B-97D2-4216-BE0C-1D6E620F4C40’,<br>        USER: ‘tianlanzhihun’,<br>        SSH_AUTH_SOCK: ‘/private/tmp/com.apple.launchd.Js4bEXl9rK/Listeners’,<br>        PATH:<br>         ‘/usr/local/opt/gettext/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin’,<br>        PWD: ‘/Users/tianlanzhihun/nodejs’,<br>        LANG: ‘en_US.UTF-8’,<br>        XPC_FLAGS: ‘0x0’,<br>        XPC_SERVICE_NAME: ‘0’,<br>        SHLVL: ‘1’,<br>        HOME: ‘/Users/tianlanzhihun’,<br>        LOGNAME: ‘tianlanzhihun’,<br>        SECURITYSESSIONID: ‘186aa’,<br>        _: ‘/usr/local/bin/node’,<br>        OLDPWD: ‘/Users/tianlanzhihun’,<br>        __CF_USER_TEXT_ENCODING: ‘0x1F5:0x0:0x0’ } },<br>  Buffer:<br>   { [Function: Buffer]<br>     poolSize: 8192,<br>     from: [Function: from],<br>     of: [Function: of],<br>     alloc: [Function: alloc],<br>     allocUnsafe: [Function: allocUnsafe],<br>     allocUnsafeSlow: [Function: allocUnsafeSlow],<br>     isBuffer: [Function: isBuffer],<br>     compare: [Function: compare],<br>     isEncoding: [Function: isEncoding],<br>     concat: [Function: concat],<br>     byteLength: [Function: byteLength],<br>     [Symbol(kIsEncodingSymbol)]: [Function: isEncoding] },<br>  clearInterval: [Function: clearInterval],<br>  clearTimeout: [Function: clearTimeout],<br>  setInterval: [Function: setInterval],<br>  setTimeout:<br>   { [Function: setTimeout] [Symbol(util.promisify.custom)]: [Function] },<br>  clearImmediate: [Function: clearImmediate],<br>  setImmediate:<br>   { [Function: setImmediate] [Symbol(util.promisify.custom)]: [Function] } }<br>undefined</p>
 </blockquote></p>
 
+          
+        
       
     </div>
+
     
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Node-js/">Node.js</a></li></ul>
-	</div>
 
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/web/">web</a><a class="article-category-link" href="/categories/web/Node-js/">Node.js</a><a class="article-category-link" href="/categories/web/Node-js/Node-js基础知识/">Node.js基础知识</a><a class="article-category-link" href="/categories/web/Node-js/Node-js基础知识/Node-js的全局作用域及全局函数/">Node.js的全局作用域及全局函数</a>
-	</div>
+    
+    
+    
 
+    
 
-      
-      <div class="clearfix"></div>
-    </div>
+    
       
     
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
-
-
-
-
-
-
-
   
   
-    <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
-    </nav>
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+  </nav>
+
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar1.gif" alt="92coding">
+            
+              <p class="site-author-name" itemprop="name">92coding</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">9</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">12</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/wangfangping" title="GitHub &rarr; https://github.com/wangfangping" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:173374618@qq.com" title="E-Mail &rarr; mailto:173374618@qq.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">92coding</span>
+
+  
+
   
 </div>
-      <footer id="footer">
-  <div class="outer">
-    <div id="footer-info">
-      <div class="footer-left">
-        &copy; 2019 92coding
-      </div>
-        <div class="footer-right">
-          <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/smackgg/hexo-theme-smackdown" target="_blank">Smackdown</a>
-        </div>
-    </div>
-  </div>
-</footer>
-    </div>
-    
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
 
+
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.1.1</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
 
 <script>
-	var yiliaConfig = {
-		fancybox: true,
-		mathjax: true,
-		animate: true,
-		isHome: true,
-		isPost: false,
-		isArchive: false,
-		isTag: false,
-		isCategory: false,
-		open_in_new: false
-	}
-</script>
-<script src="/js/main.js"></script>
-
-
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-        processEscapes: true,
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    }
-});
-
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';                 
-    }       
-});
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
 </script>
 
-<script src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js"></script>
 
 
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.1.1"></script>
+
+  <script src="/js/motion.js?v=7.1.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/affix.js?v=7.1.1"></script>
+
+  <script src="/js/schemes/pisces.js?v=7.1.1"></script>
+
+
+
+  
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.1.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<script>
+  $('.highlight').not('.gist .highlight').each(function(i, e) {
+    var $wrap = $('<div>').addClass('highlight-wrap');
+    $(e).after($wrap);
+    $wrap.append($('<button>').addClass('copy-btn').append('复制').on('click', function(e) {
+      var code = $(this).parent().find('.code').find('.line').map(function(i, e) {
+        return $(e).text();
+      }).toArray().join('\n');
+      var ta = document.createElement('textarea');
+      var yPosition = window.pageYOffset || document.documentElement.scrollTop;
+      ta.style.top = yPosition + 'px'; // Prevent page scroll
+      ta.style.position = 'absolute';
+      ta.style.opacity = '0';
+      ta.readOnly = true;
+      ta.value = code;
+      document.body.appendChild(ta);
+      ta.select();
+      ta.setSelectionRange(0, code.length);
+      ta.readOnly = false;
+      var result = document.execCommand('copy');
+      
+      ta.blur(); // For iOS
+      $(this).blur();
+    })).on('mouseleave', function(e) {
+      var $b = $(this).find('.copy-btn');
+      setTimeout(function() {
+        $b.text('复制');
+      }, 300);
+    }).append(e);
+  })
+</script>
+
+
+  
+
+  
+
 </body>
 </html>
