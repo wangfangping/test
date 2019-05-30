@@ -1778,7 +1778,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1de334;
+  background: #50dae4;
 }
 .feed-link,
 .chat {
@@ -2629,6 +2629,8 @@ ul.breadcrumb li+li:last-child {
 .sidebar {
   right: auto;
   bottom: auto;
+  top: 5%;
+  left: 5%;
   -webkit-transform: none;
 }
 .sidebar a,
